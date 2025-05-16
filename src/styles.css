@@ -19,4 +19,8 @@
   .animate-slide-in {
     animation: slideIn 1s ease-out forwards;
   }
+   .hidden-slide {
+    opacity: 0;
+    transform: translateX(100%);
+  }
 }
