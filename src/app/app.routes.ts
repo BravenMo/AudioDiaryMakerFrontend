@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
+import { LandingComponent } from './components/landing/landing.component';
 
 export const routes: Routes = [
     {
@@ -10,8 +10,8 @@ export const routes: Routes = [
     },
     {
         path: 'home',
-        component: HomeComponent,
-        data: { scrollPositionRestoration: 'enabled' }
+        component: LandingComponent,
+        // data: { scrollPositionRestoration: 'enabled' }
     },
     {
         path: 'login',
