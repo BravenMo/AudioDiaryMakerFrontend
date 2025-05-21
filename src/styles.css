@@ -24,3 +24,6 @@
     transform: translateX(100%);
   }
 }
+body {
+  overflow-x: hidden;
+}
